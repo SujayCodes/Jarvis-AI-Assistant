@@ -1,0 +1,18 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Vercel
+.vercel
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
