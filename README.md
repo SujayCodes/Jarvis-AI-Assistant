@@ -84,14 +84,6 @@ function via `@vercel/python`.
 > than server memory — this keeps multi-turn context working correctly in
 > production.
 
-## Important: rotate your API key
-
-The Groq key you shared was pasted in plain text in our conversation, so
-treat it as exposed. Before (or right after) you push this repo anywhere,
-generate a new key in the [Groq Console](https://console.groq.com/keys),
-revoke the old one, and update it in your `.env` file locally and in your
-Vercel project's environment variables.
-
 ## API routes
 
 | Route          | Method | Description                          |
